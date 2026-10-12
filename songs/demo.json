@@ -1,0 +1,23 @@
+{
+  "version": 1,
+  "id": "demo",
+  "title": "Open String Walk",
+  "bpm": 60,
+  "defaultTrackId": "g1",
+  "tracks": [
+    {
+      "id": "g1",
+      "name": "Guitar",
+      "instrument": "guitar",
+      "notes": [
+        { "tMs": 1000, "midi": 40, "string": 6, "fret": 0 },
+        { "tMs": 2000, "midi": 45, "string": 5, "fret": 0 },
+        { "tMs": 3000, "midi": 50, "string": 4, "fret": 0 },
+        { "tMs": 4000, "midi": 55, "string": 3, "fret": 0 },
+        { "tMs": 5000, "midi": 59, "string": 2, "fret": 0 },
+        { "tMs": 6000, "midi": 64, "string": 1, "fret": 0 }
+      ]
+    }
+  ],
+  "source": { "format": "openfret" }
+}

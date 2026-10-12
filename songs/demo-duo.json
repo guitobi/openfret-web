@@ -1,0 +1,45 @@
+{
+  "version": 1,
+  "id": "demo-duo",
+  "title": "Power Chord Walk (with backing)",
+  "bpm": 80,
+  "defaultTrackId": "lead",
+  "tracks": [
+    {
+      "id": "lead",
+      "name": "Lead (you)",
+      "instrument": "guitar",
+      "notes": [
+        { "tMs": 0, "midi": 64, "string": 1, "fret": 0, "durMs": 750 },
+        { "tMs": 750, "midi": 67, "string": 1, "fret": 3, "durMs": 750 },
+        { "tMs": 1500, "midi": 69, "string": 1, "fret": 5, "durMs": 1500 },
+        { "tMs": 3000, "midi": 67, "string": 1, "fret": 3, "durMs": 750 },
+        { "tMs": 3750, "midi": 64, "string": 1, "fret": 0, "durMs": 750 },
+        { "tMs": 4500, "midi": 62, "string": 2, "fret": 3, "durMs": 1500 },
+        { "tMs": 6000, "midi": 64, "string": 1, "fret": 0, "durMs": 3000 }
+      ]
+    },
+    {
+      "id": "backing",
+      "name": "Rhythm (backing)",
+      "instrument": "guitar",
+      "notes": [
+        { "tMs": 0, "midi": 45, "durMs": 1500 },
+        { "tMs": 0, "midi": 52, "durMs": 1500 },
+        { "tMs": 1500, "midi": 43, "durMs": 1500 },
+        { "tMs": 1500, "midi": 50, "durMs": 1500 },
+        { "tMs": 3000, "midi": 45, "durMs": 1500 },
+        { "tMs": 3000, "midi": 52, "durMs": 1500 },
+        { "tMs": 4500, "midi": 48, "durMs": 1500 },
+        { "tMs": 4500, "midi": 55, "durMs": 1500 },
+        { "tMs": 6000, "midi": 45, "durMs": 3000 },
+        { "tMs": 6000, "midi": 52, "durMs": 3000 }
+      ]
+    }
+  ],
+  "sections": [
+    { "id": "sec-1", "name": "Riff", "startMs": 0, "endMs": 4500 },
+    { "id": "sec-2", "name": "Turn", "startMs": 4500, "endMs": 9000 }
+  ],
+  "source": { "format": "openfret" }
+}

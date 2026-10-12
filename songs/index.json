@@ -1,0 +1,6 @@
+{
+  "songs": [
+    { "id": "demo", "title": "Open String Walk", "path": "/songs/demo.json" },
+    { "id": "demo-duo", "title": "Power Chord Walk (with backing)", "path": "/songs/demo-duo.json" }
+  ]
+}
